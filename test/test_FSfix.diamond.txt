@@ -1,0 +1,6 @@
+LUC_nt	LUC_aa	36	1	1	12	-1	8*K3
+ori_luc_nt	LUC_aa	36	1	1	12	-1	12
+rep_nt1	rep_aa	1	108	1	36	1	2/-PT13\-20
+rep_nt2	rep_aa	1	106	1	36	1	17-H\-18
+rep_nt3	rep_aa	1	110	1	36	1	17H-/-19
+ori_rep_nt	rep_aa	1	108	1	36	1	36

@@ -1,0 +1,101 @@
+LUC_nt	LUC_aa	36	1	1	12	-1	8*K3
+ori_luc_nt	LUC_aa	36	1	1	12	-1	12
+rep_nt1	rep_aa	1	108	1	36	1	2/-PT13\-20
+rep_nt2	rep_aa	1	106	1	36	1	17-H\-18
+rep_nt3	rep_aa	1	110	1	36	1	17H-/-19
+ori_rep_nt	rep_aa	1	108	1	36	1	36
+
+
+
+BLASTP 2.3.0+
+
+
+Query= LUC_nt
+
+Length=36
+
+>LUC_aa
+Length=552
+
+ Score = 29.5 bits (66),  Expect = 4.9e-07
+ Identities = 11/12 (91%), Positives = 11/12 (91%), Gaps = 0/12 (0%)
+ Frame = -1
+
+Query  36  MEDAKNIK*GPA 1
+           MEDAKNIK GPA
+Sbjct   1  MEDAKNIKKGPA 12
+
+Query= ori_luc_nt
+
+Length=36
+
+>LUC_aa
+Length=552
+
+ Score = 38.9 bits (90),  Expect = 2.3e-10
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+ Frame = -1
+
+Query  36  MEDAKNIKKGPA 1
+           MEDAKNIKKGPA
+Sbjct   1  MEDAKNIKKGPA 12
+
+Query= rep_nt1
+
+Length=108
+
+>rep_aa
+Length=220
+
+ Score = 99.2 bits (245),  Expect = 2.3e-30
+ Identities = 35/36 (97%), Positives = 35/36 (97%), Gaps = 0/36 (0%)
+ Frame = 1
+
+Query    1  MA/PQSREIGIQAKNKP\GHWVQTERKAHEAWAGLIAR 108
+            MA  QSREIGIQAKNKP GHWVQTERKAHEAWAGLIAR
+Sbjct    1  MA-TQSREIGIQAKNKP-GHWVQTERKAHEAWAGLIAR 36
+
+Query= rep_nt2
+
+Length=106
+
+>rep_aa
+Length=220
+
+ Score = 100.4 bits (248),  Expect = 8.2e-31
+ Identities = 35/36 (97%), Positives = 35/36 (97%), Gaps = 1/36 (2%)
+ Frame = 1
+
+Query    1  MATQSREIGIQAKNKPG-\WVQTERKAHEAWAGLIAR 106
+            MATQSREIGIQAKNKPG  WVQTERKAHEAWAGLIAR
+Sbjct    1  MATQSREIGIQAKNKPGH-WVQTERKAHEAWAGLIAR 36
+
+Query= rep_nt3
+
+Length=110
+
+>rep_aa
+Length=220
+
+ Score = 103.9 bits (257),  Expect = 5.3e-32
+ Identities = 36/37 (97%), Positives = 36/37 (97%), Gaps = 1/37 (2%)
+ Frame = 1
+
+Query    1  MATQSREIGIQAKNKPGH/HWVQTERKAHEAWAGLIAR 110
+            MATQSREIGIQAKNKPG  HWVQTERKAHEAWAGLIAR
+Sbjct    1  MATQSREIGIQAKNKPG--HWVQTERKAHEAWAGLIAR 36
+
+Query= ori_rep_nt
+
+Length=108
+
+>rep_aa
+Length=220
+
+ Score = 111.3 bits (276),  Expect = 1.3e-34
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+ Frame = 1
+
+Query    1  MATQSREIGIQAKNKPGHWVQTERKAHEAWAGLIAR 108
+            MATQSREIGIQAKNKPGHWVQTERKAHEAWAGLIAR
+Sbjct    1  MATQSREIGIQAKNKPGHWVQTERKAHEAWAGLIAR 36

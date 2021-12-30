@@ -1,0 +1,9 @@
+## test vcf
+## test comment
+#Chrom	pos	type	ref	var
+LUC_nt	11	.	C	T
+LUC_nt	12	.	A	T
+rep_nt1	6	.	C	CA
+rep_nt1	46	.	CA	C
+rep_nt2	52	.	C	CAC
+rep_nt3	54	.	CAC	C
